@@ -1,7 +1,7 @@
 WoW Screenshot OCR
 ==============
 
-Deep learning OCR models to read text from WoW screenshots. Based on a detector that spots text frames from screenshots, and a recognizer that reads text from detected frames.
+Deep learning OCR models to read text from WoW screenshots. Based on a detector that spots text frames, and a recognizer that reads text from detected frames.
 
 - Chat
 - Combat log
@@ -18,7 +18,7 @@ Installation
 Usage
 ----
 
-Models will use pre trained weights, you don't have to train anything. [Try it on Colab](https://colab.research.google.com/drive/1w4YIS--7qSzdSrwKPcQfqO988PlrxuCM?usp=sharing)
+Models use pre trained weights, you don't have to train anything. [Try it on Colab](https://colab.research.google.com/drive/1w4YIS--7qSzdSrwKPcQfqO988PlrxuCM?usp=sharing)
 
 ```
 import wow_ocr
