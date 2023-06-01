@@ -18,7 +18,7 @@ Installation
 Usage
 ----
 
-Models will use pre trained weights, you don't have to train anything
+Models will use pre trained weights, you don't have to train anything. [Try it on Colab](https://colab.research.google.com/drive/1w4YIS--7qSzdSrwKPcQfqO988PlrxuCM?usp=sharing)
 
 ```
 import wow_ocr
@@ -45,6 +45,3 @@ prediction_groups = pipeline.recognize(images)
 
 ![](p1.webp)
 ![](p2.webp)
-
-Pypi
-----
