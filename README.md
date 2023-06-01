@@ -9,6 +9,13 @@ Deep learning OCR models to read text from WoW screenshots. Based on a detector 
 - UI frames
 - Map
 
+Installation
+-----
+
+```pip install wow-ocr```
+
+[See Pypi Repo](https://pypi.org/project/wow-ocr/0.0.1/)
+
 Usage
 ----
 
