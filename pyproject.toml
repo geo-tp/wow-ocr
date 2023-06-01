@@ -1,0 +1,36 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wow-ocr"
+version = "0.0.0"
+description = "A packaged OCR model to read texts into WoW screenshots"
+readme = "README.md"
+authors = [{ name = "Geo", email = "geoffrey.menon38@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ocr", "wow", "screenshot"]
+dependencies = [
+    "validators",
+    "essential_generators",
+    "tqdm",
+    "imgaug",
+    "fonttools",
+    "editdistance",
+    "pyclipper",
+    "shapely",
+    "efficientnet",
+    "tensorflow",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "pip-tools", "pytest", "types-requests", "types-pkg-resources"]
+
+[project.urls]
+Homepage = "https://github.com/geo-tp/wow-ocr"
