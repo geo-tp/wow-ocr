@@ -26,9 +26,9 @@ PRETRAINED_WEIGHTS: typing.Dict[str, typing.Any] = {
         "alphabet": DEFAULT_ALPHABET,
         "build_params": DEFAULT_BUILD_PARAMS,
         "weights": {
-            "url": "https://github.com/faustomorales/keras-ocr/releases/download/v0.8.4/crnn_kurapan.h5",
-            "filename": "crnn_kurapan.h5",
-            "sha256": "a7d8086ac8f5c3d6a0a828f7d6fbabcaf815415dd125c32533013f85603be46d",
+            "url": "https://github.com/geo-tp/wow-ocr/releases/download/v0.0.1/recognizer_wow_ocr.h5",
+            "filename": "recognizer_wow_ocr.h5",
+            "sha256": "0f1af6f1d40abdc551fa46ab478a768dd2a00096fdaa2fa2a124b5ac13d6d0fd",
         },
     },
 }

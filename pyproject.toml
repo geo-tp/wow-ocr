@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wow-ocr"
-version = "0.0.0"
+version = "0.0.1"
 description = "A packaged OCR model to read texts into WoW screenshots"
 readme = "README.md"
 authors = [{ name = "Geo", email = "geoffrey.menon38@gmail.com" }]
