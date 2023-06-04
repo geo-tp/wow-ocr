@@ -28,7 +28,7 @@ PRETRAINED_WEIGHTS: typing.Dict[str, typing.Any] = {
         "weights": {
             "url": "https://github.com/geo-tp/wow-ocr/releases/download/v0.0.1/recognizer_wow_ocr.h5",
             "filename": "recognizer_wow_ocr.h5",
-            "sha256": "0f1af6f1d40abdc551fa46ab478a768dd2a00096fdaa2fa2a124b5ac13d6d0fd",
+            "sha256": "8240eede88bfedbd6bd3b9f42d6305d2e61cc16375183cd789cef6ebe88a4743",
         },
     },
 }
