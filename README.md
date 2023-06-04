@@ -45,3 +45,9 @@ prediction_groups = pipeline.recognize(images)
 
 ![](p1.webp)
 ![](p2.webp)
+
+
+Training
+-------
+
+Here is the recognizer fine tuning process : [Training process](https://github.com/geo-tp/Keras-Colaboratory-Models/blob/main/WoW_Screenshot_OCR_Training_Recognizer.ipynb)
